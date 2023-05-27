@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">The survey</h1>
+    <p id="description">Fill out this survey to apply for the competition.</p>
+    <form method="" action="" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Enter name:<input type="text" id="name" required placeholder="Enter name"></label>
+            <label for="email" id="email-label">Enter email:<input type="email" id="email" required placeholder="Enter email"></label>
+            <label for="number" id="number-label">Enter number:<input class="number" type="number" id="number" min="0" max="99" placeholder="Enter number" required></label>
+            <label for="number" id="number-label">Enter sex:
+                <select name="" id="dropdown">
+                <option value="">Male</option>
+                <option value="" selected>Female</option>
+                </select>
+            </label>
+            <p class="in">BIO<textarea rows="5" cols="50" name="text"></textarea></p>
+        </fieldset>
+        <input type="submit" class="submit" value="Submit" />
+    </form>
+</body>
+</html>
